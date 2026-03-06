@@ -11,6 +11,10 @@ public class jenkinsController {
     public String welcomeMessage() {
         return "Welcome to jenkins Application";
     }
+    @GetMapping("/hello") // This is the second part
+    public String hello() {
+        return "hello jenkins Application";
+    }
 }
     //added comment for maven
     //docker add
